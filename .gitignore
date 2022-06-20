@@ -36,8 +36,3 @@ build/
 /mvnw.cmd
 /mvnw
 /logs/
-/dependency-reduced-pom.xml
-
-
-#
-.lock
