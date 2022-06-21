@@ -1,0 +1,27 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  sql:
+    init:
+      platform: h2
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: "jdbc:h2:mem:database;MODE=MYSQL;"
+    username: sa
+    password:
+    poolname: H2_DB
+    min-idle: 1
+    max-pool: 10
+
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    database: mysql
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57Dialect
+        ddl-auto: none
+        format_sql: true

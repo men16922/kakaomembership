@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG" packages="com.bm.membership">
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t|%c{2}] %msg%n"/>
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- Root Logger -->
+		<Root level="INFO">
+			<AppenderRef ref="Console"/>
+		</Root>
+
+		<logger name="SYSTEM.OUT" level="info" additivity="true">
+		</logger>
+		<logger name="SYSTEM.ERR" level="info" additivity="true">
+		</logger>
+		<logger name="com.bm.membership" level="debug" additivity="true">
+		</logger>
+		<logger name="org.springframework" level="debug" additivity="true">
+		</logger>
+		<logger name="org.apache" level="info" additivity="false">
+		</logger>
+		<logger name="org.apache" level="info" additivity="false">
+		</logger>
+
+	</Loggers>
+</Configuration>

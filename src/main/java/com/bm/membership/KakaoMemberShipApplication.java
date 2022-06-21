@@ -1,9 +1,8 @@
+package com.bm.membership;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.AutoConfigureAfter;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;
 
 import javax.annotation.PreDestroy;
 
@@ -12,8 +11,6 @@ import javax.annotation.PreDestroy;
  */
 @Slf4j
 @SpringBootApplication
-@EnableAutoConfiguration
-@AutoConfigureAfter(JacksonAutoConfiguration.class)
 public class KakaoMemberShipApplication {
 
     public static void main(String[] args) {
