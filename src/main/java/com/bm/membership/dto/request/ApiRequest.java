@@ -1,5 +1,6 @@
 package com.bm.membership.dto.request;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.NoArgsConstructor;
 
 /**
@@ -16,6 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public abstract class ApiRequest {
 
+    @JsonIgnore
     protected String createdTxId;
 
     /**

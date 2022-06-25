@@ -30,7 +30,7 @@ public class SwaggerConfigure {
 
     @Bean
     public Docket api() {
-        return new Docket(DocumentationType.SWAGGER_2)
+        return new Docket(DocumentationType.OAS_30)
                 .select()
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
@@ -40,9 +40,9 @@ public class SwaggerConfigure {
     @Bean
     public OpenAPI openAPI() {
         Info info = new Info()
-                .title("KAKAOPAY 사전과제 - MEMBERSHIP API")
+                .title("KAKAOPAY 사전과제 - KAKAOPAY MEMBERSHIP API")
                 .version("1.0")
-                .description("KAKAOPAY 사전과제 - MEMBERSHIP API")
+                .description("KAKAOPAY 사전과제 - KAKAOPAY MEMBERSHIP API")
                 .termsOfService("http://swagger.io/terms/")
                 .contact(new Contact().name("최병민").email("men16922@gmail.com"));
 

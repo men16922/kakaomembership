@@ -1,6 +1,6 @@
 package com.bm.membership.dto.api.earn;
 
-import com.bm.membership.dto.response.ApiResponse;
+import com.bm.membership.dto.response.UserApiResponse;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
@@ -24,11 +24,12 @@ import javax.validation.constraints.Size;
  * -----------------------------------------------------------
  * 2022-06-21        men16       최초 생성
  */
+@Schema(description = "포인트 적립 response")
 @ToString
 @Setter
 @Getter
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class EarnResponseDto extends ApiResponse {
+public class EarnResponseDto extends UserApiResponse {
 
     @NotBlank @Size(max = 255) @Required
     @Schema(description = "응답코드")
@@ -44,6 +45,9 @@ public class EarnResponseDto extends ApiResponse {
 
     @Schema(description = "적립금")
     private Float point;
+
+    @Schema(description = "업종별 통합 적립금")
+    private Float totalPoint;
 
     @Size(max = 50)
     @Schema(description = "거래ID")

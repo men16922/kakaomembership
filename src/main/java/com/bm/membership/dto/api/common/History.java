@@ -11,6 +11,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.validation.constraints.Size;
 
 /**
@@ -24,6 +26,7 @@ import javax.validation.constraints.Size;
  * -----------------------------------------------------------
  * 2022-06-21        men16       최초 생성
  */
+@Schema(description = "사용내역 조회 응답 Object")
 @Builder
 @Getter
 @Setter
@@ -43,11 +46,15 @@ public class History {
     @Size(max = 10)
     @Schema(description = "업종")
     @JsonFormat(shape = JsonFormat.Shape.STRING)
+    @Enumerated(EnumType.STRING)
     private Category category;
 
     @Size(max = 50)
     @Schema(description = "상점이름")
     private String partnerName;
+
+    @Schema(description = "적립금")
+    private Float point;
 
 
 }

@@ -1,6 +1,6 @@
 package com.bm.membership.domain;
 
-import com.bm.membership.common.enums.Category;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.*;
 
@@ -17,10 +17,12 @@ import javax.persistence.*;
  * -----------------------------------------------------------
  * 2022-06-21        men16       최초 생성
  */
-
-@ToString
-@Getter
-@Setter
+@SequenceGenerator(
+        name = "MEMBER_POINT_GENERATOR",
+        sequenceName = "MEMBER_POINT_SEQUENCES",
+        initialValue = 1, allocationSize = 1)
+@ToString(exclude = {"memberShip", "shop"})
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -29,27 +31,34 @@ import javax.persistence.*;
 public class MemberPoint {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,
+            generator = "MEMBER_POINT_GENERATOR")
     @Column(name = "MEMBER_POINT_SEQ", nullable = false)
     @Schema(name = "MEMBER_POINT_SEQ")
     private Long memberPointSeq;
 
-    @OneToOne
-    @JoinColumn(name = "MEMBERSHIP_SEQ", nullable = false)
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "USER_ID", nullable = false)
     private MemberShip memberShip;
 
-    @Column(name = "CATEGORY", nullable = false)
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "CATEGORY", nullable = false)
+    private Shop shop;
+
+    @Column(name = "CATEGORY_ID", nullable = false)
     @Schema(name = "업종")
-    @Enumerated(EnumType.STRING)
-    private Category category;
+    private String categoryId;
 
     @Column(name = "TOTAL_POINT", nullable = false)
     @Schema(name = "포인트총합")
-    private String totalPoint;
+    private Float totalPoint;
 
     @Version
     @Column(name = "VERSION", nullable = false)
     @Schema(name = "버전")
     private Long version;
+
 }
 

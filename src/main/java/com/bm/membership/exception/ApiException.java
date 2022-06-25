@@ -23,7 +23,6 @@ public class ApiException extends RuntimeException {
 
     private static final long serialVersionUID = 3263621656521309597L;
 
-
     private ResultType failType;
 
     private String reasonKey;
@@ -32,29 +31,6 @@ public class ApiException extends RuntimeException {
 
     private String returnMessage;
 
-    public ApiException(String reasonKey) {
-        super(reasonKey);
-        this.reasonKey = reasonKey;
-
-    }
-
-
-    public ApiException(ResultType failType, String returnCode, String returnMessage) {
-        super(String.format("[%s]%s", failType.value(), returnMessage));
-        this.reasonKey = failType.value();
-        this.failType = failType;
-        this.returnCode = returnCode;
-        this.returnMessage = returnMessage;
-
-    }
-
-    public ApiException(String reasonKey, String message) {
-        super(String.format("[%s]%s", reasonKey, message));
-        this.reasonKey = reasonKey;
-        this.returnMessage = message;
-
-    }
-
     public ApiException(ResultType failType) {
         super(failType.value());
         this.reasonKey = failType.value();
@@ -62,13 +38,19 @@ public class ApiException extends RuntimeException {
 
     }
 
+    public ApiException(String reasonKey, String returnMessage) {
+        super(reasonKey);
+        this.reasonKey = reasonKey;
+        this.returnMessage = returnMessage;
+
+    }
 
     public ApiException(ResultType failType, String message) {
         super(String.format("[%s]%s", failType.value(), message));
         this.reasonKey = failType.value();
-        this.failType = failType;
         this.returnMessage = message;
 
     }
+
 
 }

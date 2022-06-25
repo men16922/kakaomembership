@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "4e7abb45-f23e-4a4f-9b01-270201ec04ec",
+		"name": "kakaopay",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21590504"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8443/api/v1/membership/publish",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 123456789,\r\n    \"order_id\": \"order_id\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8443/api/v1/membership/publish",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"v1",
+						"membership",
+						"publish"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/api/v1/membership/publish - curl",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 123456789,\r\n    \"order_id\": \"order_id\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8443/api/v1/membership/publish",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"v1",
+						"membership",
+						"publish"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/api/v1/membership/point/earn",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"partner_id\": \"cosmetics1\",\r\n    \"membership_barcode\": \"4304345626\",\r\n    \"point\" : 100,\r\n    \"order_id\" : \"order_id\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8443/api/v1/membership/point/earn",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"v1",
+						"membership",
+						"point",
+						"earn"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/api/v1/membership/point/use",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"partner_id\": \"cosmetics2\",\r\n    \"membership_barcode\": \"4311140273\",\r\n    \"point\" : 100,\r\n    \"order_id\" : \"order_id\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8443/api/v1/membership/point/use",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"v1",
+						"membership",
+						"point",
+						"use"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/api/v1/membership/point/history",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"partner_id\": \"cosmetics1\",\r\n    \"membership_barcode\": \"2387448860\",\r\n    \"point\" : 100,\r\n    \"order_id\" : \"order_id\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8443/api/v1/membership/point/use",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"v1",
+						"membership",
+						"point",
+						"use"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,1 +1,1 @@
-spring.profiles.include: server, spring, springdoc
+spring.profiles.include: server, spring, springdoc, uuid

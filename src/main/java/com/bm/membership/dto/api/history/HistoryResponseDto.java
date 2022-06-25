@@ -1,7 +1,7 @@
 package com.bm.membership.dto.api.history;
 
 import com.bm.membership.dto.api.common.History;
-import com.bm.membership.dto.response.ApiResponse;
+import com.bm.membership.dto.response.UserApiResponse;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
@@ -13,6 +13,7 @@ import org.apache.logging.log4j.core.config.plugins.validation.constraints.Requi
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 /**
  * packageName    : com.bm.membership.dto.api.history
@@ -25,11 +26,12 @@ import javax.validation.constraints.Size;
  * -----------------------------------------------------------
  * 2022-06-21        men16       최초 생성
  */
+@Schema(description = "사용내역 조회 response")
 @ToString
 @Setter
 @Getter
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class HistoryResponseDto extends ApiResponse {
+public class HistoryResponseDto extends UserApiResponse {
 
     @NotBlank
     @Size(max = 5) @Required
@@ -41,7 +43,7 @@ public class HistoryResponseDto extends ApiResponse {
     private String returnmsg;
 
     @Schema(description = "사용내역")
-    private History history;
+    private List<History> history;
 
 
     @Override

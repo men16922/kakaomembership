@@ -23,6 +23,7 @@ import javax.validation.constraints.Size;
  * -----------------------------------------------------------
  * 2022-06-21        men16       최초 생성
  */
+@Schema(description = "사용내역 조회 request")
 @Builder
 @Setter
 @Getter

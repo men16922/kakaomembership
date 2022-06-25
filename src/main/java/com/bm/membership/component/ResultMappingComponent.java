@@ -1,8 +1,9 @@
 package com.bm.membership.component;
 
 import com.bm.membership.domain.response.CodeData;
-import com.bm.membership.dto.response.ApiResponse;
+import com.bm.membership.dto.response.UserApiResponse;
 import com.bm.membership.exception.ApiException;
+import com.bm.membership.reasonkey.ResultType;
 import com.bm.membership.repository.response.CodeDataRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -15,7 +16,7 @@ import static com.bm.membership.reasonkey.impl.CommonReasonKey.API_GENERAL_ERROR
  * fileName       : ResultMappingService
  * author         : men16
  * date           : 2022-06-20
- * description    :
+ * description    : 응답 매핑 컴포넌트
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------
@@ -28,13 +29,13 @@ public class ResultMappingComponent {
 
     private final CodeDataRepository codeDataRepository;
 
-    public ApiResponse setResponse(ApiResponse apiResponse, String reasonKey) {
-        CodeData codeData = codeDataRepository.findByReasonKey(reasonKey).orElseThrow(() -> new ApiException(API_GENERAL_ERROR));
-        apiResponse.setReasonKey(reasonKey);
-        apiResponse.setResultCode(codeData.getErrorCode());
-        apiResponse.setResultMessage(codeData.getErrorMsg());
+    public UserApiResponse setResponse(UserApiResponse userApiResponse, ResultType resultType) {
+        CodeData codeData = codeDataRepository.findByReasonKey(resultType.value()).orElseThrow(() -> new ApiException(API_GENERAL_ERROR));
+        userApiResponse.setReasonKey(resultType.value());
+        userApiResponse.setResultCode(codeData.getErrorCode());
+        userApiResponse.setResultMessage(codeData.getErrorMsg());
 
-        return apiResponse;
+        return userApiResponse;
     }
 }
 

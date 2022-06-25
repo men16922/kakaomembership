@@ -1,14 +1,14 @@
 package com.bm.membership.service;
 
 import com.bm.membership.dto.request.ApiRequest;
-import com.bm.membership.dto.response.ApiResponse;
+import com.bm.membership.dto.response.UserApiResponse;
 
 /**
  * packageName    : com.bm.membership.service
  * fileName       : ApiService
  * author         : men16
  * date           : 2022-06-21
- * description    :
+ * description    : API 서비스 추상 클래스
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------
@@ -16,5 +16,5 @@ import com.bm.membership.dto.response.ApiResponse;
  */
 public interface ApiService {
 
-    public ApiResponse executeApiService(ApiRequest apiRequest);
+    public UserApiResponse executeApiService(ApiRequest apiRequest);
 }

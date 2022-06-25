@@ -1,0 +1,1783 @@
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:12 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:13 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:14 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:15 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:16 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:17 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:18 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:19 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:20 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" & curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:21 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:22 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:22 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625" &
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:22 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>curl -kv "http://localhost:8443/api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625"
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> GET /api/v1/membership/point/history?membership_barcode=ABCDEFGHIJ&start_date=20220625&end_date=20220625 HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 186
+< Date: Sat, 25 Jun 2022 05:51:23 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","history":[{"approved_at":"2022-06-25 14:48:47","type":"earn","category":"A","partner_name":"테스트상점","point":1000.0}]}* Connection #0 to host localhost left intact
+
+C:\Users\men16>

@@ -6,7 +6,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.*;
 
 import javax.persistence.*;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /**
  * packageName    : com.bm.membership.domain
@@ -19,23 +19,27 @@ import java.time.LocalDate;
  * -----------------------------------------------------------
  * 2022-06-20        men16       최초 생성
  */
-@ToString
-@Getter
-@Setter
+@SequenceGenerator(
+        name = "POINT_GENERATOR",
+        sequenceName = "POINT_SEQUENCES",
+        initialValue = 1, allocationSize = 1)
+@ToString(exclude = {"memberShip"})
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 @Builder
-@Table(name = "POINT", uniqueConstraints = @UniqueConstraint(columnNames = { "tid", "userId"}))
+@Table(name = "POINT", uniqueConstraints = @UniqueConstraint(columnNames = { "TID", "USER_ID"}))
 public class Point {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,
+            generator = "POINT_GENERATOR")
     @Column(name = "POINT_SEQ", nullable = false)
     @Schema(name = "POINT_SEQ")
     private Long pointSeq;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "MEMBERSHIP_SEQ", nullable = false)
     private MemberShip memberShip;
 
@@ -43,13 +47,25 @@ public class Point {
     @Schema(name = "거래ID")
     private String tid;
 
+    @Column(name = "ORDERID", nullable = false)
+    @Schema(name = "주문ID")
+    private String orderId;
+
+    @Column(name = "PARTNER_ID", nullable = false)
+    @Schema(name = "상점 ID")
+    private String partnerId;
+
+    @Column(name = "PARTNER_NAME", nullable = false)
+    @Schema(name = "상점이름")
+    private String partnerName;
+
     @Column(name = "USER_ID", nullable = false)
     @Schema(name = "사용자 ID")
     private Long userId;
 
     @Column(name = "BARCODE", nullable = false)
     @Schema(name = "바코드")
-    private String barCode;
+    private String barcode;
 
     @Column(name = "CATEGORY", nullable = false)
     @Schema(name = "업종")
@@ -63,10 +79,11 @@ public class Point {
 
     @Column(name = "POINT_AMOUNT", nullable = false)
     @Schema(name = "포인트사용금액")
-    private String point;
+    private Float pointAmount;
 
-    @Column(name = "APPRVED_AT", nullable = false)
+    @Column(name = "APPRVED_AT")
     @Schema(name = "사용일")
-    private LocalDate approvedAt;
+    private LocalDateTime approvedAt;
+
 }
 

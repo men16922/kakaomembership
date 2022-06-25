@@ -19,14 +19,14 @@ import java.util.List;
  * -----------------------------------------------------------
  * 2022-06-20        men16       최초 생성
  */
-@ToString
+@ToString(exclude = {"memberPoint"})
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 @Builder
-@Table(name = "SHOP")
+@Table(name = "SHOP", uniqueConstraints = @UniqueConstraint(columnNames = {"PARTNER_ID"}))
 public class Shop {
 
     @Id
@@ -49,7 +49,8 @@ public class Shop {
     private String partnerName;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "shop")
-    private List<MemberShip> memberShip;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "shop")
+    private List<MemberPoint> memberPoints;
+
 }
 

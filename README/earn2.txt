@@ -1,0 +1,191 @@
+curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """cosmetics1""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" & curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """cosmetics2""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """grocery1""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """grocery2""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """cosmetics2""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """restaurant1""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """restaurant2""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """cosmetics1""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """cosmetics2""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}" &curl -kv -X POST "http://localhost:8443/api/v1/membership/point/earn" -H "Content-Type: application/json" -d"{ """partner_id""": """grocery1""", """membership_barcode""": """ABCDEFGHIJ""", """point""": 100, """order_id""": """order_id"""}"
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 103
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:09 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1100.0,"tid":"220625145609427077","order_id":"order_id","approved_at":"2022-06-25 14:56:09"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 103
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:09 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1200.0,"tid":"220625145609504177","order_id":"order_id","approved_at":"2022-06-25 14:56:09"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 101
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:09 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1100.0,"tid":"220625145609587277","order_id":"order_id","approved_at":"2022-06-25 14:56:09"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 101
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:09 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1200.0,"tid":"220625145609682377","order_id":"order_id","approved_at":"2022-06-25 14:56:09"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 103
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:09 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1300.0,"tid":"220625145609805477","order_id":"order_id","approved_at":"2022-06-25 14:56:09"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 104
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 212
+< Date: Sat, 25 Jun 2022 05:56:09 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":100.0,"tid":"220625145609913577","order_id":"order_id","approved_at":"2022-06-25 14:56:09"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 104
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 212
+< Date: Sat, 25 Jun 2022 05:56:10 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":200.0,"tid":"220625145610025677","order_id":"order_id","approved_at":"2022-06-25 14:56:10"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 103
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:10 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1400.0,"tid":"220625145610120777","order_id":"order_id","approved_at":"2022-06-25 14:56:10"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 103
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:10 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1500.0,"tid":"220625145610262877","order_id":"order_id","approved_at":"2022-06-25 14:56:10"}* Connection #0 to host localhost left intact
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8443...
+* Connected to localhost (127.0.0.1) port 8443 (#0)
+> POST /api/v1/membership/point/earn HTTP/1.1
+> Host: localhost:8443
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 101
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: membership
+< Content-Type: application/json
+< Content-Length: 213
+< Date: Sat, 25 Jun 2022 05:56:10 GMT
+<
+{"returncode":"00000","returnmsg":"Api processing success","membership_barcode":"ABCDEFGHIJ","point":100.0,"total_point":1300.0,"tid":"220625145610378977","order_id":"order_id","approved_at":"2022-06-25 14:56:10"}* Connection #0 to host localhost left intact

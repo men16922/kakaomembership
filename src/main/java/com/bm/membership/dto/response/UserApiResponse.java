@@ -17,7 +17,7 @@ import lombok.ToString;
  * 2022-06-20        men16       최초 생성
  */
 @ToString
-public abstract class ApiResponse {
+public abstract class UserApiResponse {
 
     @Getter
     @Setter

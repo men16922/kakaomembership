@@ -1,6 +1,6 @@
 package com.bm.membership.dto.api.publish;
 
-import com.bm.membership.dto.response.ApiResponse;
+import com.bm.membership.dto.response.UserApiResponse;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
@@ -24,11 +24,12 @@ import javax.validation.constraints.Size;
  * -----------------------------------------------------------
  * 2022-06-21        men16       최초 생성
  */
+@Schema(description = "통합 바코드 발급 response")
 @ToString
 @Setter
 @Getter
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class PublishResponseDto extends ApiResponse {
+public class PublishResponseDto extends UserApiResponse {
 
     @NotBlank @Size(max = 5) @Required
     @Schema(description = "응답코드")
@@ -76,5 +77,6 @@ public class PublishResponseDto extends ApiResponse {
     public String getResultMessage() {
         return returnmsg;
     }
+
 }
 

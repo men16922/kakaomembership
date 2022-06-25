@@ -8,7 +8,9 @@ import lombok.Getter;
 import lombok.ToString;
 import org.apache.logging.log4j.core.config.plugins.validation.constraints.Required;
 
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 /**
  * packageName    : com.bm.membership.dto.api.publish
@@ -21,6 +23,7 @@ import javax.validation.constraints.*;
  * -----------------------------------------------------------
  * 2022-06-21        men16       최초 생성
  */
+@Schema(description = "통합 바코드 발급 request")
 @Getter
 @ToString
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
@@ -28,8 +31,7 @@ public class PublishRequestDto extends ApiRequest {
 
 
     @NotNull(message = "user_id is Mandatory") @Required
-    @Max(9) @Min(9)
-    @Schema(description = "사용자ID", defaultValue = "1")
+    @Schema(description = "사용자ID", defaultValue = "123456789")
     private Long userId;
 
 

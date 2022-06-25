@@ -1,6 +1,6 @@
 package com.bm.membership.dto;
 
-import com.bm.membership.dto.response.ApiResponse;
+import com.bm.membership.dto.response.UserApiResponse;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
@@ -28,7 +28,7 @@ import javax.validation.constraints.NotNull;
 @Setter
 @Getter
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class CommonResponse extends ApiResponse {
+public class CommonResponseUser extends UserApiResponse {
 
     @NotNull
     @Max(value = 5)

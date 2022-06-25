@@ -5,7 +5,7 @@ package com.bm.membership.reasonkey;
  * fileName       : ResultType
  * author         : men16
  * date           : 2022-06-20
- * description    :
+ * description    : 응답 키 인터페이스
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------

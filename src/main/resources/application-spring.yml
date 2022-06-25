@@ -19,9 +19,24 @@ spring:
     show-sql: true
     generate-ddl: true
     database: mysql
+    defer-datasource-initialization: true
 
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL57Dialect
-        ddl-auto: none
+        dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+        ddl-auto: validate
         format_sql: true
+
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    org:
+      hibernate:
+        type:
+          descriptor:
+            sql: trace
+
+transaction:
+  default-timeout: 10
